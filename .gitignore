@@ -1,0 +1,34 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Helm
+charts/
+*.tgz
+
+# Kubernetes secrets
+secrets.yaml
+*secret*.yaml
+
+# Environment files
+.env
+
+# Python (if Flask app)
+__pycache__/
+*.pyc
+venv/
+
+# Node (if frontend exists)
+node_modules/
