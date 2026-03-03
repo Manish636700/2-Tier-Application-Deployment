@@ -13,7 +13,7 @@ Thumbs.db
 .terraform/
 *.tfstate
 *.tfstate.backup
-
+*.swp
 # Helm
 charts/
 *.tgz
